@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="ham.css">
+
 	<meta charset="UTF-8">
 	<title>Hamburguer</title>
+	<link rel="stylesheet" href="ham.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
 </head>
 <body>
 	<div class="header">
 		<h1>Menú de Hambuerguesa</h1>		
 	</div>
 	
-	<section class="menu">
-		<ul class="menu-main">
-			<li class="menu-list"><a href="#s1" class="link">Seccion 1</a></li>
-			<li class="menu-list"><a href="#s2" class="link">Seccion 2</a></li>
-			<li class="menu-list"><a href="#s3" class="link">Seccion 3</a></li>
-			<li class="menu-list"><a href="#s4" class="link">Seccion 4</a></li>
-			<li class="menu-list"><a href="#s5" class="link">Seccion 5</a></li>
-		</ul>
-	</section>
 
-	<button class="burgerbutton" ><img src="./hamburgerMenu.png" alt="" width="40px"></button>
+	<!-- Button Start -->
+
+	<!-- <button class="burgerbutton" ><img src="./hamburgerMenu.png" alt="" width="40px"></button> -->
+
+<button class="hamburger hamburger--squeeze" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+
+
+	<!-- Button End -->
+
+
+<aside class="panel">
+	<nav class="menu">
+	
+	
+			<a href="#s1" class="link">Seccion 1</a>
+			<a href="#s2" class="link">Seccion 2</a>
+			<a href="#s3" class="link">Seccion 3</a>
+			<a href="#s4" class="link">Seccion 4</a>
+			<a href="#s5" class="link">Seccion 5</a>
+	
+	
+		
+	</nav>
+</aside>
 
 
 
@@ -34,6 +54,6 @@
 		<div class="seccion" id="s5"><h2>Seccion 5</h2></div>
 	</section>
 
-<script type="text/javascript" src="ham.js"></script>
+<script type="module" src="ham.js"></script>
 </body>
 </html>
