@@ -1,15 +1,17 @@
-let $burgerButton =  document.querySelector(".burgerbutton"),
-	$menu = document.querySelector(".menu"),
-	$link = document.querySelectorAll(".link");
+export default function hamburgerMenu(panelBtn, panel, menuLink){
+	const d = document;
 
 
+	d.addEventListener("click", e=>{
+		if( e.target.matches(panelBtn) || e.target.matches(`${panelBtn} *`)){
+			d.querySelector(panel).classList.toggle("is-active");
+			d.querySelector(panelBtn).classList.toggle("is-active");
+		}
 
 
-function menu(){
-	$menu.classList.toggle('active')
+		if(e.target.matches(menuLink)){
+			d.querySelector(panel).classList.remove("is-active");
+			d.querySelector(panelBtn).classList.remove("is-active");	
+		}
+	})
 	}
-
-
-$burgerButton.addEventListener("click", menu)
-$link.forEach( link =>  link.addEventListener('click',menu)) 
-
