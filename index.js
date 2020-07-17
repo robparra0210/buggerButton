@@ -5,16 +5,16 @@ import reloj from "./reloj.js"
 const d = document;
 
 
-d.addEventListener("DOMContentLoaded", (e)=>{
+d.addEventListener("DOMContentLoaded", (e) => {
 
-	menu('.burgerbutton', '.menu' ,  '.menu-main li');
+    menu('.burgerbutton', '.menu', '.menu-main li');
 
 })
 
 
 
-d.addEventListener("DOMContentLoaded", (e)=>{
+d.addEventListener("DOMContentLoaded", (e) => {
 
-	reloj('.hora','.min','.seg');
+    reloj('.hora', '.min', '.seg', '.displayReloj', '#iniciarReloj', '#detenerReloj', '#iniciarAlarma', '#detenerAlarma');
 
 })

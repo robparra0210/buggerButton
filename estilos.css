@@ -124,8 +124,11 @@ body{
 	  }
 
 
+
+	
+
 	 .displayReloj{
-	 	display: flex;
+	 	display: none;
 	 	justify-content: center;
 	 }
 
@@ -135,3 +138,4 @@ body{
 		font-weight: bold;
 
 	  }
+
