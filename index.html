@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+<<<<<<< HEAD
 
 	<meta charset="UTF-8">
 	<title>Hamburguer</title>
@@ -55,5 +57,67 @@
 	</section>
 
 <script type="module" src="index_dom.js"></script>
+=======
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <title>Ejercicios del DOM</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Ejercicios del DOM</h1>
+    </div>
+    <section class="menu">
+        <ul class="menu-main">
+            <li class="menu-list"><a href="#s1" class="link">Seccion 1</a></li>
+            <li class="menu-list"><a href="#s2" class="link">Seccion 2</a></li>
+            <li class="menu-list"><a href="#s3" class="link">Seccion 3</a></li>
+            <li class="menu-list"><a href="#s4" class="link">Seccion 4</a></li>
+            <li class="menu-list"><a href="#s5" class="link">Seccion 5</a></li>
+        </ul>
+    </section>
+    <button class="burgerbutton"><img src="./hamburgerMenu.png" alt="" width="40px"></button>
+    <section class="secciones">
+        <!-----------------------------     Seccion 1 - Reloj Digital ------------------------------------>
+        <div class="seccion" id="s1">
+            <div class="tituloSeccion">
+                <h2>Seccion 1</h2>
+                <h3>Reloj Digital y Alarma Sonora</h3>
+            </div>
+            <div class="relojMain">
+                <div class="displayReloj">
+                    <p class="hora"> </p>
+                    <p>:</p>
+                    <p class="min"> </p>
+                    <p>:</p>
+                    <p class="seg"> </p>
+                </div>
+                <div class="botones">
+                    <button id="iniciarReloj">Iniciar Reloj</button>
+                    <button id="detenerReloj">Detener Reloj</button>
+                    <button id="iniciarAlarma">Iniciar Alarma</button>
+                    <button id="detenerAlarma">Detener Alarma</button>
+                </div>
+                <div>
+                    <audio id="alarma" src="./alarma.mp3" preload="none" loop></audio>
+                </div>
+            </div>
+        </div>
+        <div class="seccion" id="s2">
+            <h2>Seccion 2</h2>
+        </div>
+        <div class="seccion" id="s3">
+            <h2>Seccion 3</h2>
+        </div>
+        <div class="seccion" id="s4">
+            <h2>Seccion 4</h2>
+        </div>
+        <div class="seccion" id="s5">
+            <h2>Seccion 5</h2>
+        </div>
+    </section>
+    <script type="module" src="index.js"></script>
+>>>>>>> myVersion
 </body>
+
 </html>

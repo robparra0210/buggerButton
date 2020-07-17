@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /********************* Resert CSS *******************/
 
 
@@ -9,6 +10,31 @@
 	--main--modal--color:rgba(247,222,30,0.85);
 	--second-modal-color:rgba(34,34,34,0.85);
 	--container-width:1200px;
+=======
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+	--main-font: sans-serif;
+	--font-size: 16px;
+	--main-color:#f7df1e;
+	--second-color:#222;
+	--main--modal--color:rgba(247,222,30,0.85);
+	--second-modal-color:rgba(34,34,34,0.85);
+	--container-width:1200px;
+};
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{ 
+scroll-behavior: smooth; }
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+>>>>>>> myVersion
 }
 
 html{ 
@@ -46,9 +72,26 @@ html{
 
 .header h1{ 
 	text-align: center;
+<<<<<<< HEAD
 	margin: 0 auto;
  }
 
+=======
+	background-color: var(--main--modal--color);
+	z-index: 20;
+ }
+
+.header h1{ 
+	margin: 0
+ }
+ 
+ .secciones{ 
+ 	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+>>>>>>> myVersion
 
 .seccion{ 
 	padding: 2rem;
@@ -61,6 +104,12 @@ html{
 	text-align:center;
  }
 
+<<<<<<< HEAD
+=======
+ .menu-active{
+	 	left:0%;
+	 }
+>>>>>>> myVersion
 
 .panel{
 	position: fixed;
