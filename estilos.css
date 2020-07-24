@@ -3,7 +3,7 @@
 :root{
 	--main-font: sans-serif;
 	--font-size: 16px;
-	--main-color:#f7df1e;
+	--main-color:#f7df1elienzo;
 	--second-color:#222;
 	--main--modal--color:rgba(247,222,30,0.85);
 	--second-modal-color:rgba(34,34,34,0.85);
@@ -43,7 +43,8 @@ body{
   }
 
   .seccion{ 
-	height: 40vh
+	height: 40vh;
+	margin:2rem ;
    }
 .menu{ 
 	background: rgba(161,161,161,0.5);
@@ -137,5 +138,24 @@ body{
 		font-size: 2em;
 		font-weight: bold;
 
+	  }
+
+	  #lienzo{
+		margin-top: 10px;
+		background-color: darkgrey;
+		width: 900px;
+		height: 200px;
+
+	
+	  }
+
+
+	  #pelota{
+		  background-color:var(--main--modal--color) ;
+		  width: 20px;
+		  height: 20px;
+		  border-radius: 50%;
+		
+	
 	  }
 
