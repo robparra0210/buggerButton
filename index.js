@@ -1,6 +1,7 @@
 import menu from "./ham.js"
 import reloj from "./reloj.js"
-import tecla, { moverPelota } from "./eventosDeTeclado.js"
+import tecla  from "./eventosDeTeclado.js"
+import countdown  from "./countdown.js"
 
 
 const d = document;
@@ -23,6 +24,13 @@ d.addEventListener("DOMContentLoaded", (e) => {
 d.addEventListener("DOMContentLoaded", (e) => {
 
     tecla('#pelota','#lienzo');
+  
+
+})
+
+d.addEventListener("DOMContentLoaded", (e) => {
+
+    countdown('.countdown');
   
 
 })

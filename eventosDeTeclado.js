@@ -2,9 +2,7 @@ const d=document;
 let x = 0, 
 y = 0;
 
-export function moverPelota() {
-    
-}
+
 
 export   default function tecla(pelota, lienzo) {
 
