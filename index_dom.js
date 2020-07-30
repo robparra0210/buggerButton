@@ -1,10 +1,11 @@
 import hamburgerMenu from "./ham.js"
 import { digitalClock, alarm} from "./reloj.js"
+import tecla  from "./eventosDeTeclado.js"
 
 const d = document;
 
 
-d.addEventListener("DOMContentLoaded", (e)=>{
+d.addEventListener("DOMContentLoaded", ()=>{
 
 	hamburgerMenu('.panel-btn','.panel','.menu a');
 	digitalClock('#reloj', '#activar-reloj', '#desactivar-reloj')
@@ -14,8 +15,9 @@ d.addEventListener("DOMContentLoaded", (e)=>{
 
 
 
-	/*d.addEventListener("click", e=>{
-		if(e.target.matches(".panel-btn")){
-			d.querySelector('.panel').classList.toggle("is-active")
-		}
-	})*/
+d.addEventListener("DOMContentLoaded", (e) => {
+
+    tecla('#pelota','#lienzo');
+  
+
+})

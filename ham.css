@@ -124,3 +124,30 @@ text-align: center;
 	background-color: var(--main--modal--color);
 
   }
+
+
+  .displayReloj p{ 
+	padding: .2em;
+	font-size: 2em;
+	font-weight: bold;
+
+  }
+
+  #lienzo{
+	margin-top: 10px;
+	background-color: darkgrey;
+	width: 900px;
+	height: 200px;
+
+
+  }
+
+
+  #pelota{
+	  background-color:var(--main--modal--color) ;
+	  width: 20px;
+	  height: 20px;
+	  border-radius: 50%;
+	
+
+  }
