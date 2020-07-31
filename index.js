@@ -8,23 +8,12 @@ import darkTheme from "./tema-oscuro.js";
 
 const d = document;
 
-
 d.addEventListener("DOMContentLoaded", (e) => {
-
-    menu('.burgerbutton', '.menu', '.menu-main li');
-
-})
-
-
-
-d.addEventListener("DOMContentLoaded", (e) => {
-
+    menu('.burgerbutton', '.menu', '.menu-main li');    
     reloj('.hora', '.min', '.seg', '.displayReloj', '#iniciarReloj', '#detenerReloj', '#iniciarAlarma', '#detenerAlarma');
     tecla('#pelota','#lienzo');
-    
     countdown('.countdown');
-
     scrollTopButton('.scroll-top-btn')
-    darkTheme('.dark-theme-btn','dark-mode')
 })
 
+darkTheme('.dark-theme-btn','dark-mode')
