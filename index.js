@@ -5,6 +5,10 @@ import countdown  from "./countdown.js"
 import scrollTopButton from "./boton-scroll.js";
 import darkTheme from "./tema-oscuro.js";
 import responsiveMedia from "./objeto-responsive.js";
+import responsiveTester from "./prueba_responsive.js";
+import userDeviceinfo from "./userDevice.js";
+import neterworkStatus from "./deteccion_red.js";
+
 
 
 const d = document;
@@ -22,9 +26,17 @@ d.addEventListener("DOMContentLoaded", (e) => {
         `<a href="https://www.youtube.com/watch?v=6IwUl-4pAzc&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=90" 
         target='_blank'>Ver Video</a>`,
         '<iframe width="560" height="315" src="https://www.youtube.com/embed/6IwUl-4pAzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-        )
-        
-
+        );
+        responsiveTester('responsive-tester')       
+        userDeviceinfo('user-device')
 })
 
 darkTheme('.dark-theme-btn','dark-mode')
+neterworkStatus()
+
+
+
+//alt+35 =   #
+//alt +126 = ~
+//alt + 124 = |
+//alt +96 = `
