@@ -8,6 +8,8 @@ import responsiveMedia from "./objeto-responsive.js";
 import responsiveTester from "./prueba_responsive.js";
 import userDeviceinfo from "./userDevice.js";
 import neterworkStatus from "./deteccion_red.js";
+import webcam from "./deteccion_camara.js";
+import getGeolocation from "./geolocalizacion.js";
 
 
 
@@ -29,7 +31,9 @@ d.addEventListener("DOMContentLoaded", (e) => {
         );
         responsiveTester('responsive-tester')       
         userDeviceinfo('user-device')
-})
+        webcam('webcam')
+        getGeolocation('geolocation')
+    })
 
 darkTheme('.dark-theme-btn','dark-mode')
 neterworkStatus()
