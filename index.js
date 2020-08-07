@@ -10,6 +10,7 @@ import userDeviceinfo from "./userDevice.js";
 import neterworkStatus from "./deteccion_red.js";
 import webcam from "./deteccion_camara.js";
 import getGeolocation from "./geolocalizacion.js";
+import searchFilter from "./filtro_busqueda.js";
 
 
 
@@ -33,6 +34,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
         userDeviceinfo('user-device')
         webcam('webcam')
         getGeolocation('geolocation')
+        searchFilter('.card-filter', '.card')
     })
 
 darkTheme('.dark-theme-btn','dark-mode')
