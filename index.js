@@ -11,6 +11,7 @@ import neterworkStatus from "./deteccion_red.js";
 import webcam from "./deteccion_camara.js";
 import getGeolocation from "./geolocalizacion.js";
 import searchFilter from "./filtro_busqueda.js";
+import draw from "./sorteo.js";
 
 
 
@@ -35,6 +36,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
         webcam('webcam')
         getGeolocation('geolocation')
         searchFilter('.card-filter', '.card')
+        draw('.winner-btn', '.player')
     })
 
 darkTheme('.dark-theme-btn','dark-mode')
