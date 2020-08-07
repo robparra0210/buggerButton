@@ -43,7 +43,7 @@ body{
   }
 
   .seccion{ 
-	height: 40vh;
+	height: min-content;
 	margin:2rem ;
    }
 .menu{ 
