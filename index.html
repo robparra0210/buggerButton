@@ -11,19 +11,33 @@
     <div class="header" data-dark>
         <h1>Ejercicios del DOM</h1>
     </div>
-    <section class="menu">
-        <ul class="menu-main">
-            <li class="menu-list"><a href="#s1" class="link">Seccion 1</a></li>
-            <li class="menu-list"><a href="#s2" class="link">Seccion 2</a></li>
-            <li class="menu-list"><a href="#s3" class="link">Seccion 3</a></li>
-            <li class="menu-list"><a href="#s4" class="link">Seccion 4</a></li>
-            <li class="menu-list"><a href="#s5" class="link">Seccion 5</a></li>
-        </ul>
-    </section>
-    <button class="burgerbutton"><img src="./hamburgerMenu.png" alt="" width="40px"></button>
-    <section class="secciones">
+   
+
+        <section class="menu">
+            <ul class="menu-main">
+                <li class="menu-list"><a href="#s1" class="link" data-scroll-spy>Reloj Digital</a></li>
+                <li class="menu-list"><a href="#s2" class="link" data-scroll-spy>Eventos de Teclado</a></li>
+                <li class="menu-list"><a href="#s3" class="link" data-scroll-spy>Countdown</a></li>
+                <li class="menu-list"><a href="#s4" class="link" data-scroll-spy>Responsive desing con js</a></li>
+                <li class="menu-list"><a href="#s5" class="link" data-scroll-spy>Responsive tester</a></li>
+                <li class="menu-list"><a href="#s6" class="link" data-scroll-spy>User Detection</a></li>
+                <li class="menu-list"><a href="#s7" class="link" data-scroll-spy>Deteccion de coneccion</a></li>
+                <li class="menu-list"><a href="#s8" class="link" data-scroll-spy>Deteccion de Camara</a></li>
+                <li class="menu-list"><a href="#s9" class="link" data-scroll-spy>Geolocaliacion</a></li>
+                <li class="menu-list"><a href="#s10" class="link" data-scroll-spy>Filtros de busqueda</a></li>
+                <li class="menu-list"><a href="#s11" class="link" data-scroll-spy>sorteo digital</a></li>
+                <li class="menu-list"><a href="#s12" class="link" data-scroll-spy>Respondive Slider</a></li>
+                <li class="menu-list"><a href="#s13" class="link" data-scroll-spy>Video Inteligente</a></li>
+                <li class="menu-list"><a href="#s14" class="link" data-scroll-spy>Validacion de formulario</a></li>
+                <li class="menu-list"><a href="#s15" class="link" data-scroll-spy>Narrador de texto</a></li>
+                
+            </ul>
+        </section>
+    
+        <button class="burgerbutton"><img src="./hamburgerMenu.png" alt="" width="40px"></button>
+    <main class="secciones">
         <!-----------------------------     Seccion 1 - Reloj Digital ------------------------------------>
-        <div class="seccion" id="s1">
+        <div class="seccion" data-scroll-spy  id="s1">
             <div class="tituloSeccion">
                 <h2>Seccion 1</h2>
                 <h3>Reloj Digital y Alarma Sonora</h3>
@@ -49,7 +63,7 @@
         </div>
      
         <!-----------------------------     Seccion 2 - Mover Pelota(eventos de teclado) ------------------------------------>
-     <div class="seccion" id="s2">
+     <div class="seccion" data-scroll-spy  id="s2">
             <div class="tituloSeccion">
                 <h2>Seccion 2</h2>
                 <h3>Eventos de Teclado</h3>
@@ -57,10 +71,10 @@
             <div id="lienzo" >
                 <div id="pelota"></div>
             </div>
-    </div>
+     </div>
 
         <!-----------------------------     Seccion 3 - countdown ------------------------------------>
-        <div class="seccion" id="s3">
+        <div class="seccion" data-scroll-spy  id="s3">
             <div class="tituloSeccion">
                 <h2>Seccion 3</h2>
                 <h3>countdown</h3>
@@ -74,7 +88,7 @@
 
         <!-----------------------------     Seccion 4 -responsive desing con js  ------------------------------------>
 
-        <div class="seccion" id="s4">
+        <div class="seccion" data-scroll-spy id="s4">
             <div class="tituloSeccion">
                 <h2>Seccion 4</h2>
                 <h3>Responsive Desing con JS</h3>
@@ -86,7 +100,7 @@
       
         <!-----------------------------     Seccion 5 - responsive tester  ------------------------------------>
 
-        <div class="seccion" id="s5">
+        <div class="seccion" data-scroll-spy id="s5">
             <div class="tituloSeccion">
                 <h2>Seccion 5</h2>
                 <h3>Responsive Tester</h3>
@@ -106,7 +120,7 @@
 
         <!-----------------------------     Seccion 6 - User Detection  ------------------------------------>
 
-        <div class="seccion" id="s6">
+        <div class="seccion" data-scroll-spy id="s6">
             <div class="tituloSeccion">
                 <h2>Seccion 6</h2>
                 <h3>Deteccion de Dispositivos</h3>
@@ -115,7 +129,7 @@
         </div>
 
         <!-----------------------------     Seccion 7 - Deteccion de coneccion ------------------------------------>
-        <div class="seccion" id="s7">
+        <div class="seccion" data-scroll-spy id="s7">
             <div class="tituloSeccion">
                 <h2>Seccion 7</h2>
                 <h3>Deteccion de conexion</h3>
@@ -124,7 +138,7 @@
 
         <!-----------------------------     Seccion 8 - Deteccion de Camara ------------------------------------>
 
-        <div class="seccion" id="s8">
+        <div class="seccion" data-scroll-spy id="s8">
             <div class="tituloSeccion">
                 <h2>Seccion 8</h2>
                 <h3>Deteccion de Camara</h3>
@@ -135,7 +149,7 @@
  
         <!-----------------------------     Seccion 9 - Geolocaliacion ------------------------------------>
         
-        <div class="seccion" id="s9">
+        <div class="seccion" data-scroll-spy id="s9">
             <div class="tituloSeccion">
                 <h2>Seccion 9</h2>
                 <h3>Geolocaliacion</h3>
@@ -145,8 +159,8 @@
             <video src="" id="webcam"></video>
         </div>
 
-        <!-----------------------------     Seccion 10 - acion ------------------------------------>
-        <div class="seccion" id="s10">
+        <!-----------------------------     Seccion 10 - Filtro de busqueda ------------------------------------>
+        <div class="seccion" data-scroll-spy id="s10">
             <div class="tituloSeccion">
                 <h2>Seccion 10</h2>
                 <h3>Filtros de busqueda</h3>
@@ -190,7 +204,7 @@
         
         <!-----------------------------     Seccion 11 - sorteor ------------------------------------>
 
-        <div class="seccion" id="s11">
+        <div class="seccion" data-scroll-spy id="s11">
             <div class="tituloSeccion">
                 <h2>Seccion 11</h2>
                 <h3>Sorteo</h3>
@@ -209,8 +223,140 @@
                 <li class="player">Assambler</li>
 
             </ul>
+        </div>
+        
+        <!-----------------------------     Seccion 12 - respondive Slider ------------------------------------>
 
-    </section>
+        <div class="seccion" data-scroll-spy id="s12">
+            <div class="tituloSeccion">
+                <h2>Seccion 12</h2>
+                <h3>Responsive Slider</h3>
+            </div>
+          <div class="slider">
+              <div class="slider-slides">
+                    <div class="slider-slide active">
+                        <img src="https://placeimg.com/400/400/animals" alt="Any">
+                    </div>
+
+                    <div class="slider-slide">
+                        <h4>Diapositiva 2</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Inventore, voluptatum autem porro sit sequi reprehenderit 
+                            aspernatur, amet corrupti fugit deleniti perferendis! Fuga 
+                            molestiae autem blanditiis quae aliquid consequuntur sapiente
+                            tenetur?</p>
+                    </div>
+
+                    <div class="slider-slide">
+                        <img src="https://placeimg.com/400/400/people" alt="Any">
+                    </div>
+
+                    <div class="slider-slide">
+                        <h4>Diapositiva 4</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Inventore, voluptatum autem porro sit sequi reprehenderit 
+                            aspernatur, amet corrupti fugit deleniti perferendis! Fuga 
+                            molestiae autem blanditiis quae aliquid consequuntur sapiente
+                            tenetur?</p>
+                    </div>
+              </div>
+              <div class="slider-btn">
+                  <a href="#" class="prev">«</a>
+                  <a href="#" class="next">»</a> 
+              </div>
+          </div>
+        </div>
+
+
+        <!-----------------------------     Seccion 13 - Video inteligente ------------------------------------>
+
+        
+        <div class="seccion" data-scroll-spy id="s13">
+            <div class="tituloSeccion">
+                <h2>Seccion 13</h2>
+                <h3>Video Inteligente</h3>
+        
+        <video src="assets/coverbajo.mp4" muted  loop class="videoo"  data-smart-video></video>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <video src="assets/coverbajo.mp4" muted loop class="videoo"  data-smart-video></video>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+</div>
+
+
+ <!-----------------------------     Seccion 13 - Video inteligente ------------------------------------>
+
+        
+    <div class="seccion" data-scroll-spy id="s14">
+        <div class="tituloSeccion">
+            <h2>Seccion 14</h2>
+            <h3>Validacion de formulario</h3>
+        </div>
+        <div class="formulario">
+            <form class="contact-form" action="https://formsubmit.co/robertoparra0210@gmail.com" 
+            method="POST" target="blank">
+                <legend>Envianos tus comentarios</legend>
+                <input type="text" name="name" placeholder="Escribe tu nombre" title="El nombre solo puede acepta
+                 letras y espacios" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+                 <input type="email" name="email" placeholder="Email" title='Email incorrecto' pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                 <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto es requerido" required>
+                <textarea name="comment" cols="50" rows="5" placeholder="Escribe tus comentarios" data-pattern="^.{1,255}$" title="Tu
+                 comentario no debe pasar de 255 caracteres" required></textarea>
+                 <input type="submit" value="Enviar" >
+                 <div class="contact-form-loader none">
+                     <img src="/assets/spinning-circles.svg" alt="cargando">
+                 </div>
+                 <div class="contact-form-response none">
+                     <p>Los datas han sido enviado</p>
+                 </div>
+            </form>        
+        </div>
+    </div>
+
+
+    <!-----------------------------     Seccion 15 - narrador ------------------------------------>
+
+        
+    <div class="seccion" data-scroll-spy id="s15">
+        <div class="tituloSeccion">
+            <h2>Seccion 15</h2>
+            <h3>Narrador</h3>
+        </div>
+        <div class="speech">
+            <select name="" id="speech-select">
+                <option value="">--Elige-una-voz</option>
+            </select>
+            <br><br>
+            <textarea id='speech-text' placeholder="ingresa texto para leer"  name="" id="" cols="30" rows="10"></textarea>
+            <button id="speech-btn">Leer Texto</button>
+        </div>
+    </div>
+
+    </main>
 
     <!-----------------------------     Boton scroll  ------------------------------------>
     <button class="scroll-top-btn hidden">&#11014</button>

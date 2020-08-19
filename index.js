@@ -12,6 +12,11 @@ import webcam from "./deteccion_camara.js";
 import getGeolocation from "./geolocalizacion.js";
 import searchFilter from "./filtro_busqueda.js";
 import draw from "./sorteo.js";
+import slider from "./carrusel.js";
+import scrollSpy from "./menu_spy.js";
+import smartVideo from "./video_inteligente.js";
+import contactValidations from "./validaciones.js";
+import speechReader from "./narrador.js";
 
 
 
@@ -36,12 +41,17 @@ d.addEventListener("DOMContentLoaded", (e) => {
         webcam('webcam')
         getGeolocation('geolocation')
         searchFilter('.card-filter', '.card')
+        scrollSpy('.seccion')
         draw('.winner-btn', '.player')
+        slider()
+        smartVideo()
+        contactValidations()
+    
     })
 
 darkTheme('.dark-theme-btn','dark-mode')
 neterworkStatus()
-
+speechReader()
 
 
 //alt+35 =   #
